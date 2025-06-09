@@ -18,6 +18,7 @@ Each service is an independent Node.js application, likely using Express.js for 
 - **Node.js**: As the runtime environment for all microservices.
 - **Express.js**: A fast, unopinionated, minimalist web framework for Node.js, used for building APIs.
 - **MongoDB**: A NoSQL database used for storing data for each service.
+- **RabbitMQ**: A message broker used for inter-service communication.
 - **NPM**: Package manager for Node.js.
 - **Git**: Version control system.
 
