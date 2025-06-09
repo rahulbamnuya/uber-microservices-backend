@@ -57,12 +57,12 @@ To set up and run this project, follow these steps for each microservice:
     - `MONGODB_URI`: Connection string for the MongoDB database.
     - `RABBIT_URL=`:Paste url after login CloudAMQP.
     - `JWT_SECRET`=user_secret_key
-     _Example captain environment variables:_
+    _Example captain environment variables:_
     - `PORT`: The port on which the service will run. example port 3002
     - `MONGODB_URI`: Connection string for the MongoDB database.
     - `RABBIT_URL=`:Paste url after login CloudAMQP.
     - `JWT_SECRET`=user_secret_key
-     _Example ride environment variables:_
+    _Example ride environment variables:_
     - `PORT`: The port on which the service will run. exapmle port 3003
     - `MONGODB_URI`: Connection string for the MongoDB database.
     - `RABBIT_URL=`:Paste url after login CloudAMQP.
