@@ -35,8 +35,8 @@ To set up and run this project, follow these steps for each microservice:
 
 1.  **Clone the repository:**
     ```bash
-    git clone <repository_url>
-    cd uber-microservices
+    git remote add origin https://github.com/rahulbamnuya/uber-microservices-backend.git
+    cd uber-microservices-backend
     ```
 
 2.  **Navigate to a service directory:**
@@ -52,9 +52,25 @@ To set up and run this project, follow these steps for each microservice:
 4.  **Configure Environment Variables:**
     Each service will likely require its own environment variables (e.g., database connection strings, port numbers, API keys). You should create a `.env` file in each service directory based on a `.env.example` (if available) or relevant documentation.
 
-    _Example common environment variables:_
-    - `PORT`: The port on which the service will run.
+    _Example user environment variables:_
+    - `PORT`: The port on which the service will run.exam port 3001
     - `MONGODB_URI`: Connection string for the MongoDB database.
+    - `RABBIT_URL=`:Paste url after login CloudAMQP.
+    - `JWT_SECRET`=user_secret_key
+     _Example captain environment variables:_
+    - `PORT`: The port on which the service will run. example port 3002
+    - `MONGODB_URI`: Connection string for the MongoDB database.
+    - `RABBIT_URL=`:Paste url after login CloudAMQP.
+    - `JWT_SECRET`=user_secret_key
+     _Example ride environment variables:_
+    - `PORT`: The port on which the service will run. exapmle port 3003
+    - `MONGODB_URI`: Connection string for the MongoDB database.
+    - `RABBIT_URL=`:Paste url after login CloudAMQP.
+    - `JWT_SECRET`=user_secret_key.
+    - `BASE_URL`=http://localhost:3000 or local host of gatewayservice
+   
+
+
 
 ### Running the Application
 
